@@ -13,7 +13,7 @@ function addBook(arr,books) {
 
 console.log(addBook(books, "Elves"))
 
-Book.prototype.introduce = function() {
+Book.prototype.displayInfo = function() {
     console.log("We are reading " + this.title + ", and it's fantastic");
 }
 
